@@ -33,7 +33,7 @@ const char* WIFI_SSID = "YOUR_WIFI_NAME";
 const char* WIFI_PASS = "YOUR_WIFI_PASSWORD";
 const char* HOSTNAME  = "smart-ac";          // reachable as http://smart-ac.local/
 const char* AP_SSID   = "SmartAC-Setup";     // fallback hotspot
-const char* AP_PASS   = "CHANGE_ME_8CHARS";         // at least 8 characters
+const char* AP_PASS   = "12345678";          // at least 8 characters
 // ============================
 
 WebServerClass server(80);
