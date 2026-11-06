@@ -37,6 +37,8 @@ esp32-smart-ac-controller/
 │   ├── smart_ac_controller/
 │   │   ├── smart_ac_controller.ino   Wi-Fi + web server sketch
 │   │   └── web_files.h               website embedded (gzip) - generated
+│   ├── ir_capture/
+│   │   └── ir_capture.ino            records AC remote codes with an IR receiver
 │   ├── build_web_header.py           regenerates web_files.h from web/
 │   └── README.md                     detailed flashing guide
 └── web/                           the website (HTML / CSS / JS)
@@ -109,5 +111,6 @@ Profiles are currently stored in each browser's `localStorage`, and a profile ru
 ## 📚 More docs
 
 - [Firmware and flashing guide](firmware/README.md)
+- [Recording AC remote codes (IR Capture)](firmware/ir_capture/README.md)
 - [Web app details](web/README.md)
 - [Web testing notes](web/TESTING.md)
